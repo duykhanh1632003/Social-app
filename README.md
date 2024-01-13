@@ -36,3 +36,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 npm i @clerk/nextjs mongoose react-hook-form @mui/icons-material @emotion/react @emotion/styled
+
+
+
+## Sign up with Clerk Even.type is user.created→ Webhook receive event notification →
+
+Clerk send a POST request to Endpoint → connect to MongoDB + trigger the action of create a new user in mongodb
+1/ Setup MongoDB
+2/ Create User model by User Schema
+3/ Create "createUser" async function
+4/ Create POST request to api webhook which is endpoint
+5/ Enable webhook in application
+6/ Sign up a new user
+
+Tạo login - logout
+tạo giao diện với 3 phần left, mid , right
+thư mục root với layout để tạo giao diện còn page.jsx để tạo nên quản lý trang cá nhân
